@@ -13,8 +13,9 @@ Recommended order:
 3. poseigen_compass
 4. poseigen_binmeths
 5. poseigen_trident
-6. poseigen_oyster
-7. poseigen (meta package)
+6. poseigen_mimic
+7. poseigen_oyster
+8. poseigen (meta package)
 
 ## Standalone Package Release
 

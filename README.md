@@ -10,7 +10,7 @@ Poseigen is a modular ecosystem of Python packages for machine-learning workflow
 - [poseigen_binmeths](https://github.com/Husam94/poseigen_binmeths) ([PyPI](https://pypi.org/project/poseigen_binmeths/)) — binning, balanced sampling, and split-generation methods.
 - [poseigen_trident](https://github.com/Husam94/poseigen_trident) ([PyPI](https://pypi.org/project/poseigen_trident/)) — neural-network building blocks and training utilities.
 - [poseigen_mimic](https://github.com/Husam94/poseigen_mimic) ([PyPI](https://pypi.org/project/poseigen_mimic/)) — unified sequence-embedding architectures built on Trident.
-- [poseigen_oyster](https://github.com/Husam94/poseigen_oyster) ([PyPI](https://pypi.org/project/poseigen_oyster/)) — interpretable genomic sequence models with exact position-specific k-mer contributions.
+- [poseigen_oyster](https://github.com/Husam94/poseigen_oyster) ([PyPI](https://pypi.org/project/poseigen_oyster/)) — glass-box genomic sequence models with exact position-specific k-mer contributions.
 
 ## How the packages fit together
 
@@ -23,7 +23,13 @@ Poseigen is a modular ecosystem of Python packages for machine-learning workflow
 
 ## Installation
 
-The all-in-one `poseigen` meta-package is not yet published on PyPI. Until its first release, install the components you need individually, for example:
+Install the full suite from PyPI:
+
+```bash
+python -m pip install poseigen
+```
+
+You can also install individual components, for example:
 
 ```bash
 python -m pip install poseigen_binmeths poseigen_oyster poseigen_trident
