@@ -1,0 +1,9 @@
+.venv/
+.vscode/
+.tmp.*/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+/poseigen_*/
